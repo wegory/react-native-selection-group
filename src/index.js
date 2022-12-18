@@ -1,10 +1,9 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import {
-    View,
-    ViewPropTypes
+    View
 } from 'react-native';
-
+import {ViewPropTypes} from 'deprecated-react-native-prop-types'
 /**
  * The only real strict requirement is that 'items' is an array of objects all of which have a field 
  * called 'optionText'.
